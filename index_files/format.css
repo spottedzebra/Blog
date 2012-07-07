@@ -1,0 +1,91 @@
+body{background-color: #E6E6E6; margin: 0px; padding: 0px color: #333333; font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif; font-size: 14px; }
+.shadow{}
+
+#wrapper{margin-top: 1px; margin-right:auto; margin-bottom: -100px; margin-left:auto; padding: 0px 0px 13% 0px; width: 950px; text-align: left;  -khtml-box-shadow: 0px 0px 20px 3px #999999; -moz-box-shadow: 0px 0px 20px 3px #999999; -webkit-box-shadow: 0px 0px 20px 3px #999999; box-shadow: 0px 0px 20px 3px #999999; }
+
+#header{text-align: left; width: 600px; margin: auto; padding: 20px 0px 0px 0px; font-size: 25px}
+#header a{text-decoration: none; color: black;}
+/*#censor{width:400px;height:25px;vertical-align:middle;text-align:center;background-color:#000;position:absolute;z-index:20;top:75px;background-image:url(http://americancensorship.org/images/stop-censorship-small.png);background-position:center center;background-repeat:no-repeat;}*/
+
+
+/*Links of the Day on all pages*/
+#links{float: left; width: 140px; margin: 0px 0px 0px 20px; padding: 0px 0px 0px 0px;}
+#links h4{padding: 0px 0px 20px 0px; margin: 5px 0px 0px 0px;}
+#links a{text-decoration: none; color: #8E8E8E; font-size: 0.9em}
+#links a:hover{text-decoration: none; color: #8E8E8E; background-color: #595959; padding: 1px 3px 1px 3px; -moz-border-radius: 5px; -webkit-border-radius: 5px; khtml-border-radius: 5px; border-radius: 5px;}
+#links a:active{background-color: #297ACC}
+
+/*Navigation for all page*/
+#nav{float: right; width: 150px; margin: auto auto auto auto; padding: 10px 0px 0px 20px; border-left-color: black;  border-left-style: solid; border-left-width: 2px;  }
+#nav h3{}
+#nav a{text-decoration: none; color: #8E8E8E; font-size: 0.9em;}
+#nav a:hover{text-decoration: none; background-color: #595959; padding: 1px 3px 1px 3px; -moz-border-radius: 5px; -webkit-border-radius: 5px; khtml-border-radius: 5px; border-radius: 5px;}
+#nav a:active{background-color: #297ACC}
+.sites{margin: 5px 0px 5px 0px; padding: 0px 0px 0px 0px}
+.other{margin: 5px 0px 5px 0px; padding: 0px 0px 0px 0px}
+.category{margin: 5px 0px 5px 0px; padding: 0px 0px 0px 0px}
+.tools{margin: 5px 0px 5px 0px; padding: 0px 0px 0px 0px}
+.archive{margin: 5px 0px 5px 0px; padding: 0px 0px 0px 0px}
+.soc_media{margin: 5px 0px 5px 0px; padding: 0px 0px 0px 0px}
+
+/*Social Media buttons*/
+#soc_media a{text-decoration: none}
+#soc_media a:hover{padding: 0px; text-decoration: none; background-color: transparent; -moz-border-radius: 0px; -webkit-border-radius: 0px; khtml-border-radius: 0px; border-radius: 0px;}
+#soc_media a:active{background-color: transparent}
+
+/*Post content formatting*/
+#content{ margin: 0px 0px 65px 165px; padding: 0px 10px 0px 10px; width: 575px;  border-left-color: black;  border-left-style: solid; border-left-width: 2px; }
+#title{font-size: 1.4em;}
+#title a{text-decoration: none}
+#entry{font-size: 14px}
+#date{color: #999999; font-size: 0.8em;}
+
+/*Index Page Formatting*/
+#short_content{ margin: 0px 0px 65px 165px; padding: 0px 10px 0px 10px; width: 575px;  border-left-color: black;  border-left-style: solid; border-left-width: 2px; }
+#title{font-size: 1.4em; padding: 0px; margin: 0px}
+#title a{text-decoration: none; color: black;}
+#title a:hover{padding: 0px; text-decoration: none; background-color: #595959; padding: 1px 3px 1px 3px; -moz-border-radius: 5px; -webkit-border-radius: 5px; khtml-border-radius: 5px; border-radius: 5px;}
+#short_entry{font-size: 14px}
+#date{color: #999999; font-size: 0.8em;}
+
+/*Comment formatting for all post pages*/
+#comments{ margin: 0px 0px 65px 155px; padding: 0px 10px 0px 10px; width: 575px;}
+#add_comment{ padding: 0px 10px 0px 10px;border-left-color: black;  border-left-style: solid; border-left-width: 2px;}
+#dis_comments{padding: 0px 10px 0px 20px;}
+#comment_date{position: relative; margin: 0px 0px 0px 425px; font-family: "Verdana"; font-size: 10px;}
+
+/*IP log*/
+#table{text-align: center}
+#counter{float: left; width: 140px; margin: 0px px 0px 0px; padding: 0px 0px 0px 10px;}
+#hits{ font-size: 1.5em; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 65px;}
+
+/*Footer formatting for all pages*/
+#footer {height: 100px; position: relative; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; width: 815px; background-color: #143D66}
+#footer p{margin: 0px; padding: 10px 20px 0px 20px;  font-family: "Verdana"; font-size: 10px; color: #679FD2;}
+#footer a{text-decoration: none; color: white}
+#footer a:hover{color: red}
+.clearfooter{height: 100px; clear: both}
+
+/*Horizontal line formatting in comments*/
+#line1{border: 2px solid black}
+#line2{border: 1px dashed grey}
+
+/*Displaying comments formatting*/
+#individual_comment{margin: 10px 0px 20px 0px;}
+#display_name{background-color: #595959; color: #8E8E8E; padding: 5px 0px 5px 0px; border-radius: 5px; font-family: "Verdana"; font-size: 15px; font-weight: bold}
+#display_name p{margin: 0px 0px 0px 5px;}
+#display_comment{margin: 10px 0px 0px 20px; padding: 3px 0px 15px 0px; color: #143D66; border: 1px solid black; border-radius: 5px; font-family: "Verdana"; font-size: 12px; font-weight: bold}
+
+/*Comment Notes*/
+#comment_notes{color: #143D66; font-family: "Verdana"; font-size: 10px;}
+
+/*Formatting for links*/
+#contact{padding: 10px 0px 20px 0px;}
+#aboutme{padding: 10px 0px 20px 0px;}
+
+/*Formatting next and previous links*/
+#next_prev{margin: auto; width: 620px}
+#prev{float: left}
+#next{float: right}
+
+
